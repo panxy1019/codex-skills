@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Handoff"
+  short_description: "Prepare compact restart summaries"
+  default_prompt: "Use $context-handoff to summarize this thread for a future continuation."

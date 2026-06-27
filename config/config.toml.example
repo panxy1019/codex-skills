@@ -1,0 +1,11 @@
+# Example Codex config snippets for this repo.
+# Merge the parts you want into ~/.codex/config.toml.
+
+# Load a custom compact prompt.
+experimental_compact_prompt_file = "~/.codex/compact_prompt.md"
+
+# Optional: compact earlier for long-running coding sessions.
+# model_auto_compact_token_limit = 64000
+
+# Optional: show remaining context in the status line when supported.
+# status_line = ["model", "context-remaining", "git-branch"]

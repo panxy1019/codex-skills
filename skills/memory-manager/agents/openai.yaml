@@ -1,0 +1,4 @@
+interface:
+  display_name: "Memory Manager"
+  short_description: "Capture durable project memory safely"
+  default_prompt: "Use $memory-manager to capture reusable project memory from this work."

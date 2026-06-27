@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Execution Manager"
+  short_description: "Plan, execute, verify, and report work"
+  default_prompt: "Use $project-execution-manager to turn this project request into a verified execution plan."

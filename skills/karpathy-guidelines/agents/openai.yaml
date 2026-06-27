@@ -1,0 +1,4 @@
+interface:
+  display_name: "Karpathy Guidelines"
+  short_description: "Coding guardrails for focused edits"
+  default_prompt: "Use $karpathy-guidelines while writing or reviewing code."
