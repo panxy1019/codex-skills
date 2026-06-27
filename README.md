@@ -15,14 +15,19 @@ Install all skills from this GitHub repo:
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo panxy1019/codex-skills \
+  --ref v0.1.0 \
   --path skills/karpathy-guidelines skills/project-execution-manager skills/memory-manager skills/context-handoff
 ```
 
 Or run the helper script from a checkout:
 
 ```bash
+git clone https://github.com/panxy1019/codex-skills.git
+cd codex-skills
 ./scripts/install.sh
 ```
+
+Use `REF=main ./scripts/install.sh` if you want the latest version instead of a tagged release.
 
 Restart Codex after installing or reloading skills.
 
